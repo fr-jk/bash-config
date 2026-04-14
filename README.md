@@ -9,7 +9,9 @@ Supported distribution : `Debian Linux`
 Make sure Git is installed on your Linux system :
 ```bash
 git --version
-or
+```
+If no result, then run :
+```bash
 apt update && apt install -y git
 ```
 
