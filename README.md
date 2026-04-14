@@ -11,6 +11,14 @@ Make sure Git is installed on your Linux system :
 git --version
 apt update && apt install -y git
 ```
+## Structure
+
+bash-config/
+- bash_aliases 
+- install.sh
+- README.md
+
+
 ## Installation
 
 ### Option 1 - Automatic installation
@@ -28,12 +36,6 @@ ln -sf ~/.dotfiles/bash_aliases ~/.bash_aliases
 echo '[ -f ~/.bash_aliases ] && source ~/.bash_aliases' >> ~/.bashrc
 source ~/.bashrc
 ```
-## Structure
-
-bash-config/
-- bash_aliases 
-- install.sh
-- README.md
 
 ## How it works
 
