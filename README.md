@@ -30,6 +30,7 @@ source ~/.bashrc
 bash-config/
 - bash_aliases 
 - install.sh
+- README.md
 
 ## How it works
 
