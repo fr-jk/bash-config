@@ -2,10 +2,8 @@
 set -e
 
 echo "Installation of bash-config..."
-
 # Clone or update the repository
 if [ ! -d "$HOME/.dotfiles" ]; then
-  echo "Cloning into $HOME/.dotfiles"
   git clone https://github.com/fr-jk/bash-config.git "$HOME/.dotfiles"
 else
   echo "Updating $HOME/.dotfiles"
