@@ -9,19 +9,20 @@ else
   echo "Updating $HOME/.dotfiles"
   git -C "$HOME/.dotfiles" pull
 fi
-echo "-----"
+
 # Create symbolic link to bash_aliases
+echo "-----"
 echo "Linking bash_aliases"
 ln -sf "$HOME/.dotfiles/bash_aliases" "$HOME/.bash_aliases"
 
-echo "-----"
 # Add source line to .bashrc if not already present
+echo "-----"
 echo "Checking bashrc configuration"
 grep -qxF '[ -f ~/.bash_aliases ] && source ~/.bash_aliases' "$HOME/.bashrc" || \
 echo '[ -f ~/.bash_aliases ] && source ~/.bash_aliases' >> "$HOME/.bashrc"
 
-echo "-----"
 # Reload bash configuration
+echo "-----"
 echo "Reloading shell"
 . "$HOME/.bashrc" || true
 
