@@ -12,14 +12,12 @@ git --version
 apt update && apt install -y git
 ```
 
-
 ## Structure
 
 bash-config/
 - bash_aliases 
 - install.sh
 - README.md
-
 
 ## Installation
 
