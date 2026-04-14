@@ -23,8 +23,8 @@ source ~/.bashrc
 ## Structure
 
 bash-config/
-|-- bash_aliases 
-|-- install.sh
+> bash_aliases 
+> install.sh
 
 ## How it works
 
