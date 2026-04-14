@@ -1,4 +1,4 @@
-# BASH ALIASES
+# BASH ALIASES CONFIGURATION
 
 # =========================
 # SYSTEM
