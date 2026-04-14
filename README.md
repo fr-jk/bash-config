@@ -20,7 +20,7 @@ source ~/.bashrc
 git -C ~/.dotfiles pull
 source ~/.bashrc
 
-## Structure
+## Structure bash-config
 
 bash-config/
 - bash_aliases 
