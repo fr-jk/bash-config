@@ -15,11 +15,6 @@ ln -sf ~/.dotfiles/bash_aliases ~/.bash_aliases
 echo '[ -f ~/.bash_aliases ] && source ~/.bash_aliases' >> ~/.bashrc
 source ~/.bashrc
 
-## Update
-
-git -C ~/.dotfiles pull
-source ~/.bashrc
-
 ## Structure bash-config
 
 bash-config/
