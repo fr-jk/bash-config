@@ -4,21 +4,24 @@ Simple repository to manage and deploy custom Bash configuration (aliases, funct
 
 ## Prerequisites
 
-Make sure Git is installed on your Linux system:
+Make sure Git is installed on your Linux system :
 ```bash
+apt list --installed | grep git
+dpkg -l | grep git
+git --version
 apt update && apt install -y git
 ```
 ## Installation
 
 ### Option 1 - Automatic installation
 
-On a Linux server, run:
+On a Linux server, run :
 ```bash
 curl -s https://raw.githubusercontent.com/fr-jk/bash-config/main/install.sh | bash
 ```
 ### Option 2 - Manual installation
 
-On a Linux server, run:
+On a Linux server, run :
 ```bash
 git clone https://github.com/fr-jk/bash-config.git ~/.dotfiles
 ln -sf ~/.dotfiles/bash_aliases ~/.bash_aliases
