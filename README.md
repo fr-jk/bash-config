@@ -42,7 +42,7 @@ bash-config/
 
 ## Security
 
-Do not store:
+Do not store :
 - passwords
 - API keys
 - private credentials
