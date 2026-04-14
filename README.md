@@ -5,9 +5,9 @@ Simple repository to manage and deploy custom Bash configuration (aliases, funct
 ## Prerequisites
 
 Make sure Git is installed on your Linux system:
-
+```bash
 apt update && apt install -y git
-
+```
 ## Installation
 
 ### Option 1 — One-liner
