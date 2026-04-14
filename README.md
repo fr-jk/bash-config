@@ -11,6 +11,8 @@ Make sure Git is installed on your Linux system :
 git --version
 apt update && apt install -y git
 ```
+
+
 ## Structure
 
 bash-config/
