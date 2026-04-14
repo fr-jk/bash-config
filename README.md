@@ -1,6 +1,6 @@
 # bash-config
 
-Simple repository to manage and deploy custom Bash configuration (aliases, functions, etc.).
+Simple repository to manage and deploy custom Bash configuration (aliases, functions, etc...).
 
 ## Prerequisites
 
