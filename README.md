@@ -2,15 +2,21 @@
 
 Simple repository to manage and deploy custom Bash configuration (aliases, functions, etc.).
 
+## Prerequisites
+
+Make sure Git is installed on your Linux system:
+
+apt update && apt install -y git
+
 ## Installation
 
-### Option 1 - One-liner
+### Option 1 — One-liner
 
 On a Linux server, run:
 
 curl -s https://raw.githubusercontent.com/fr-jk/bash-config/main/install.sh | bash
 
-### Option 2 - Manual installation
+### Option 2 — Manual installation
 
 On a Linux server, run:
 
