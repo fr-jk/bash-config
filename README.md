@@ -10,7 +10,7 @@ apt update && apt install -y git
 ```
 ## Installation
 
-### Option 1 - One-liner
+### Option 1 - Automatic installation
 
 On a Linux server, run:
 ```bash
