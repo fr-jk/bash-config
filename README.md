@@ -4,7 +4,7 @@ Simple repository to manage and deploy custom Bash configuration (aliases, funct
 
 ## Prerequisites
 
-Supported distribution : `Debian Linux`
+Supported Linux distribution : `Debian`
 
 Make sure Git is installed on the Linux system :
 ```bash
